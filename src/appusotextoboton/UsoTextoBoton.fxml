@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import componentes_godoyjosecarlos.CampoTextoBoton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusotextoboton.UsoTextoBotonController">
+   <children>
+      <CampoTextoBoton fx:id="t1" alignment="CENTER" />
+      <CampoTextoBoton fx:id="t2" alignment="TOP_CENTER" />
+      <Label fx:id="l" alignment="BOTTOM_CENTER" />
+   </children>
+</VBox>
